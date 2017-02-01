@@ -1,0 +1,43 @@
+
+
+.search-box{
+    margin-top: 40px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.panel-image {
+    position: relative; 
+}
+.panel-image img.panel-image-preview {
+	border-radius: 4px 4px 0px 0px;
+    width: 100%;
+}
+.panel{
+    width: 500px;
+    margin: auto;
+
+}
+.panel-image img{
+    height: 350px;
+    width: 350px;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+	border-radius: 0px;
+}
+
+.panel-body {
+   overflow: hidden;
+}
+
+.photo-grid{
+    padding: 100px;
+}
+.btn{
+    margin: 0 auto;
+}
